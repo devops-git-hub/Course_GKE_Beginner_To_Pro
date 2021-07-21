@@ -1,0 +1,12 @@
+#After creating muti container go inside of ftp container
+#k exec -it multi -c ftp-container -- /bin/bash
+#Cd /pod_data
+#echo $FTP_USER
+#echo $FTP_PASS
+#They will display the user name and password 
+#Install ftp client
+#yum -y install ftp
+#After that run following commands
+#ftp localhost
+#check it was going into client or not
+
